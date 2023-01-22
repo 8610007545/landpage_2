@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./pexels-rostislav-uzunov-5011647.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8%;
+}
+.logo{
+    color: white;
+    margin-top:10px;
+    font-family: 'Unbounded', cursive;
+
+}
+ul{
+    margin-top: 10px;
+}
+ul li {
+    list-style-type: none;
+    display: inline;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 40px;
+}
+ul li a:hover{
+    color:red;
+    
+}
+.logo:hover{
+    cursor: pointer;
+}
+.banner{
+    height: 400px;
+    width: 800px;
+    /* background-color: red; */
+    position: absolute;
+    top: 35%;
+    left: 28%;
+}
+.banner h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+}
+.banner p{
+    color: white;
+    text-align: center;
+    /*  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    margin-left: 30px;
+}
+.para{
+    width: 550px;
+    margin-left:100px;
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.button1,.button2{
+    font-size: 18px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 200px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: 'Unbounded', cursive;
+}
+.button2:hover{
+    background-color: rgb(232, 253, 3);
+    color:darkcyan;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: rgb(232, 253, 3);
+    color:darkcyan;
+    cursor: pointer;
+}
